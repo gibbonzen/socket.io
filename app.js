@@ -12,6 +12,7 @@ var io = require('socket.io').listen(server);
 
 io.sockets.on('connection', function(socket) {
 	console.log('Un client est connecté !');
+	socket.emit('message', 'Vous êtes bien connecté !');
 });
 
 server.listen(8080);
