@@ -1,0 +1,9 @@
+{
+	"name": "Test socket.io",
+	"version": "0.1.0",
+	"dependencies": {
+		"express": "^4.10.7",
+		"socket.io": "^1.2.1",
+		"twig": "^0.7.2"
+	}
+}
